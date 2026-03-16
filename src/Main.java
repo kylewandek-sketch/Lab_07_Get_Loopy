@@ -29,15 +29,6 @@ public class Main {
         System.out.println();
         System.out.println();
 
-        System.out.println("Task 7: Square");
-        for (int row = 1; row <= 5; row = row + 1) {
-            for (int col = 1; col <= 5; col = col + 1) {
-                System.out.print("* ");
-            }
-            System.out.println();
-        }
-        System.out.println();
-
         System.out.println("Task 5: Growing triangle");
         for (int row = 1; row <= 5; row = row + 1) {
             for (int col = 1; col <= row; col = col + 1) {
@@ -50,6 +41,15 @@ public class Main {
         System.out.println("Task 6: Shrinking triangle");
         for (int row = 5; row >= 1; row = row - 1) {
             for (int col = 1; col <= row; col = col + 1) {
+                System.out.print("* ");
+            }
+            System.out.println();
+        }
+        System.out.println();
+
+        System.out.println("Task 7: Square");
+        for (int row = 1; row <= 5; row = row + 1) {
+            for (int col = 1; col <= 5; col = col + 1) {
                 System.out.print("* ");
             }
             System.out.println();
